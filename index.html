@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pharma Supply Chain DApp</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Pharma Supply Chain on Sepolia</h1>
+  <button onclick="connectWallet()">Connect Wallet</button>
+  <p id="walletAddress">Not connected</p>
+
+  <section>
+    <h2>Add Drug</h2>
+    <input type="text" id="drugName" placeholder="Drug Name"/>
+    <button onclick="addDrug()">Add Drug</button>
+  </section>
+
+  <section>
+    <h2>Transfer Drug</h2>
+    <input type="number" id="drugIdTransfer" placeholder="Drug ID"/>
+    <input type="text" id="toAddress" placeholder="Recipient Address"/>
+    <button onclick="transferDrug()">Transfer</button>
+  </section>
+
+  <section>
+    <h2>Mark as Delivered</h2>
+    <input type="number" id="drugIdDelivered" placeholder="Drug ID"/>
+    <button onclick="markDelivered()">Mark Delivered</button>
+  </section>
+
+  <section>
+    <h2>Get Drug History</h2>
+    <input type="number" id="drugIdHistory" placeholder="Drug ID"/>
+    <button onclick="getDrugHistory()">Get History</button>
+    <ul id="historyList"></ul>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/web3@1.10.0/dist/web3.min.js"></script>
+  <script src="abi.js"></script>
+  <script src="app.js"></script>
+</body>
+</html> 
