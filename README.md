@@ -1,41 +1,61 @@
-<!-- readme-seo: bannysukumar -->
+# Pharma Supply Chain DApp
 
-# IIT KANPUR ASSEMENT1
+Pharma Supply Chain DApp ships PharmaSupplyChain.sol alongside index.html. The HTML document title is "Pharma Supply Chain DApp".
 
-**IIT KANPUR ASSEMENT1** is an open-source software project. The code is written mainly in JavaScript and maintained by [Banny Sukumar](https://github.com/Bannysukumar), a blockchain and full-stack developer.
+[![License](https://img.shields.io/github/license/Bannysukumar/IIT-KANPUR-ASSEMENT1)](https://github.com/Bannysukumar/IIT-KANPUR-ASSEMENT1/blob/main/LICENSE) [![Stars](https://img.shields.io/github/stars/Bannysukumar/IIT-KANPUR-ASSEMENT1)](https://github.com/Bannysukumar/IIT-KANPUR-ASSEMENT1/stargazers) [![Last commit](https://img.shields.io/github/last-commit/Bannysukumar/IIT-KANPUR-ASSEMENT1)](https://github.com/Bannysukumar/IIT-KANPUR-ASSEMENT1/commits/main)
 
-This repository is public so developers can read the source, reuse it under the MIT License, and send improvements.
+## Overview
 
-## About this project
+Pharma Supply Chain DApp ships PharmaSupplyChain.sol alongside index.html. The HTML document title is "Pharma Supply Chain DApp".
 
-IIT KANPUR ASSEMENT1 lives at [`github.com/Bannysukumar/IIT-KANPUR-ASSEMENT1`](https://github.com/Bannysukumar/IIT-KANPUR-ASSEMENT1). Use it as a starting point for a open-source software project, or study how the JavaScript parts fit together.
 
-## Tech stack
+What is actually in the repository: `PharmaSupplyChain.sol`. GitHub reports the primary language as JavaScript.
 
-- Primary language: **JavaScript**
-- License: **MIT**
-- Maintainer: [Banny Sukumar](https://github.com/Bannysukumar)
+## Features
 
-## Getting started
+
+- PharmaSupplyChain contract with registerRole, addDrug, transferDrug, markDelivered
+
+## Tech Stack
+
+| Technology | Where it shows up |
+|---|---|
+| Solidity | Smart contracts |
+
+## Project Architecture
+
+Browser page → Solidity contract. The frontend loads ethers or web3.
+
+## Project Structure
+
+```text
+IIT-KANPUR-ASSEMENT1/
+├── PharmaSupplyChain.sol
+├── abi.js
+├── app.js
+├── index.html
+├── style.css
+```
+
+## Getting Started
 
 ```bash
 git clone https://github.com/Bannysukumar/IIT-KANPUR-ASSEMENT1.git
 cd IIT-KANPUR-ASSEMENT1
 ```
 
-Open the project in your editor. Install dependencies only if this repo already includes a manifest such as `package.json`, `requirements.txt`, or a `.csproj` file.
-
 ## Contributing
 
-Contributions are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md) before you open a pull request.
+Read [CONTRIBUTING.md](CONTRIBUTING.md) before opening a pull request.
 
 ## License
 
-This project is licensed under the [MIT License](LICENSE). Copyright (c) 2026 Banny Sukumar.
+Licensed under MIT. See [LICENSE](LICENSE).
 
 ## Author
+
+[Banny Sukumar](https://github.com/Bannysukumar)
 
 - GitHub: [@Bannysukumar](https://github.com/Bannysukumar)
 - Portfolio: [adepu-sukumar.vercel.app](https://adepu-sukumar.vercel.app/)
 - LinkedIn: [Adepu Sukumar](https://www.linkedin.com/in/adepu-sukumar-59b423351)
-- ORCID: [0009-0007-9766-6579](https://orcid.org/0009-0007-9766-6579)
